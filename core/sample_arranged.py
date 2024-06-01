@@ -25,6 +25,6 @@ gr.add_edge((7, 9), wt=2)
 gr.add_edge((8,10), wt=6)
 gr.add_edge((9,10), wt=3)
 
-flows,cuts = maximum_flow(gr,0,3)
+flows,cuts = maximum_flow(gr,0,10)
 print('flow is:' + str(flows))
 print('cut is:'  + str(cuts))
